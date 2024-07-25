@@ -5,7 +5,7 @@ let num = Math.floor(Math.random() * 50) + 1;
 console.log(num);
 
 // 変数numが3の倍数かどうかを調べます
-if (num % 3 === 0 ) {
+if (num % 3 === 0 && num % 5 !== 0) {
   console.log("3の倍数です");
 }
 // 変数numが5の倍数かどうかを調べます
