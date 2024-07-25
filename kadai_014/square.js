@@ -1,3 +1,7 @@
-const square = num => num * num;
+const square = (num) => {
+  return num ** 2;
+};
 
-console.log(square(10)); // 出力: 100
+// 関数の使用例
+const result = square(10);
+console.log(result);  // 100と出力される
