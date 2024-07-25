@@ -9,7 +9,7 @@ if (num % 3 === 0 && num % 5 !== 0) {
   console.log("3の倍数です");
 }
 // 変数numが5の倍数かどうかを調べます
-else if (num % 5 === 0 ) {
+else if (num % 5 === 0 && num % 3 !== 0) {
   console.log("5の倍数です");
 }
 //　変数numが3と5の倍数かどうかを調べます
